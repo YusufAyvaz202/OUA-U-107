@@ -7,22 +7,22 @@ public class goblin : MonoBehaviour
 
     public Animator anim;
     public int maxHealth = 100;
-    int currentHealt;
+    int currentHealth;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>(); 
-        currentHealt = maxHealth;
+        currentHealth = maxHealth;
     }
 
     public void TakeDamage(int damage) 
     {
-        currentHealt -= damage;
+        currentHealth -= damage;
 
         anim.SetTrigger("Hurt");
 
-        if (currentHealt <= 0)
+        if (currentHealth <= 0)
         {
             Die();
         }

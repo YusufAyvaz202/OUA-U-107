@@ -12,11 +12,11 @@ public class Enemy : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    public void TakeDamage(int damege)
+    public void TakeDamage(int damage)
     {
-        currentHealth -= damege;
+        currentHealth -= damage;
 
-        // Zarar alma animasyonuy
+        // Hasar alma animasyonu
 
         if (currentHealth <= 0)
         {
@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
     {
 
         Debug.Log("Enemy dead");
-        //Ölme animasyonu
+        //Olme animasyonu
         // yok olma
 
         Destroy(gameObject);
