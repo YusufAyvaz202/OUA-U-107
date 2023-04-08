@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     public int kombo;
     public bool saldiri;
+    GameObject child;
 
     PlayerCombat playercombat;
 
@@ -20,7 +21,9 @@ public class PlayerMovement : MonoBehaviour
         r2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         playercombat = GetComponent<PlayerCombat>();
-
+        GameObject originalGameObject = GameObject.Find("karakter");
+        child = originalGameObject.transform.GetChild(0).gameObject;
+        
     }
 
     void Update()
@@ -59,11 +62,15 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") > 0)
         {
             sprt.flipX = false;
+            child.BroadcastMessage("IsFacingRight", true);
         }
 
         else if (Input.GetAxisRaw("Horizontal") < 0)
         {
             sprt.flipX = true;
+            child.BroadcastMessage("IsFacingRight", false);
+
+
         }
     }
 

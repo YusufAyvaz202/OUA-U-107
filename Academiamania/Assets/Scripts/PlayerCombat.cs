@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
+    
     public Transform attackPoint;
+
     public LayerMask enemyLayers;
+
+
+   
 
     public float attackRange = 0.5f;
     public int damage = 1;
@@ -31,6 +36,8 @@ public class PlayerCombat : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
 
     }
-    
 
+    
+    
+    
 }
