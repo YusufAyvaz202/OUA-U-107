@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - karakter
+  - Interactable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interactable
   - Water
   - UI
   - Enemy
@@ -41,6 +42,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Interactable
+    uniqueID: 446205437
     locked: 0
   - name: sahne1
     uniqueID: 630065305
