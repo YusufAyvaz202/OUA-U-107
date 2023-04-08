@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprt;
     private Animator anim;
     public int kombo;
-    public bool saldýrý;
+    public bool saldiri;
 
     PlayerCombat playercombat;
 
@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
 
         karakterDonus();
 
-        karakterSalýdýrý();
+        karakterSaldiri();
 
         agirSaldiri();
 
@@ -67,9 +67,9 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void komboSaldýrý()
+    void komboSaldiri()
     {
-        saldýrý = false;
+        saldiri = false;
 
         if (kombo < 2)
         {
@@ -79,16 +79,16 @@ public class PlayerMovement : MonoBehaviour
 
     public void bitirmeAnim()
     {
-        saldýrý = false;
+        saldiri = false;
         kombo = 0;
     }
 
-    void karakterSalýdýrý()
+    void karakterSaldiri()
     {
 
-        if (Input.GetKeyDown(KeyCode.E) && !saldýrý)
+        if (Input.GetKeyDown(KeyCode.E) && !saldiri)
         {
-            saldýrý = true;
+            saldiri = true;
             anim.SetTrigger("" + kombo);
             playercombat.DamageEnemy();
 
