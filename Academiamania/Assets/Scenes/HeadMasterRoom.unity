@@ -7753,7 +7753,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 18
+      m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -7763,7 +7763,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 6
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 18
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8073,7 +8073,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8250,10 +8250,10 @@ Tilemap:
     m_Data: {fileID: -1368728014, guid: 04a569d2c2defd7429c476b352a6eb58, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 1980470139, guid: 04a569d2c2defd7429c476b352a6eb58, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 220182474, guid: fc4ea843e37bb07458b777f9280d807a, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -902683400, guid: 04a569d2c2defd7429c476b352a6eb58, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 65151256, guid: 04a569d2c2defd7429c476b352a6eb58, type: 3}
   - m_RefCount: 1
@@ -8277,11 +8277,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 1477618916, guid: 89d8b0989e1e4ea458974a2291b0e2fd, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -437307368, guid: 04a569d2c2defd7429c476b352a6eb58, type: 3}
+    m_Data: {fileID: -902683400, guid: 04a569d2c2defd7429c476b352a6eb58, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -516982206, guid: fbfaeddce20e965418145d27d75f74dd, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -437307368, guid: 04a569d2c2defd7429c476b352a6eb58, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -504565647, guid: fbfaeddce20e965418145d27d75f74dd, type: 3}
   - m_RefCount: 2
@@ -8559,7 +8559,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
