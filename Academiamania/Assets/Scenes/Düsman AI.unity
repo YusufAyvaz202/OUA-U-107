@@ -575,7 +575,7 @@ MonoBehaviour:
   moveSpeed: 3.9
   r2d: {fileID: 0}
   kombo: 0
-  "sald\u0131r\u0131": 0
+  saldiri: 0
 --- !u!114 &1892643334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -593,4 +593,4 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   attackRange: 0.5
-  damage: 1
+  damage: 25
