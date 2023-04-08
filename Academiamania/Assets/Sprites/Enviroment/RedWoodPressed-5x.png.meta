@@ -1,0 +1,1509 @@
+fileFormatVersion: 2
+guid: 457ca767f6181134c8411938a0e6873b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 636, z: 818, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa08f834c1bd384c86887a63708f173
+      internalID: -1031704027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738c6e055adc9684388457561a147fe2
+      internalID: -1304347216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ce7f8c0be326542933c38944ff2f1e
+      internalID: -1168697844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_3
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678816aa521c1de46830a18a2d362d6a
+      internalID: 1010656279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_4
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f6b7ff118e5b44ca7b92e7a9d40ad1
+      internalID: -95647838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cf8fac8d0aa6743b2b1cf88561ea75
+      internalID: 669740670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_6
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d273f2d8c8dc79046af118263c11ae31
+      internalID: 1661407288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_7
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f479db4eb7c4b7f458fc7b0b9b2538aa
+      internalID: 349842496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_8
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 650
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4091ce11cd4704f47b1b0c8cead5d534
+      internalID: -501797283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_9
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 650
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5199abd0e66456e4180308db4a838e93
+      internalID: 664586734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_10
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 650
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604dc6da44babcc41bc419b773bf61ba
+      internalID: 1447655200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_11
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 650
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ebdb381601616468910f5080ba16fe
+      internalID: -1375377219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b355636955ecd70438e11d9a3328dee0
+      internalID: 271407262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74945096a5d9c5049a3f280baf00b693
+      internalID: -1832173330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_14
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6adb61225132b499756fce84cce223
+      internalID: 1117017465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5433b8b1345c7a045aa5b0e89e8ffe5d
+      internalID: -1620913510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 525
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65970edd38a48ca4b87a310a371ec9bb
+      internalID: -980759559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85acd8bcc3aa5944c82cd8fcbff56a95
+      internalID: 1417957475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_18
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9d50302a3f74748bc5f328c2f256a3
+      internalID: -2114278026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_19
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc8eb114980e0343902729f07c447f3
+      internalID: 719232747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_20
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7032df17532562d4d9444f166833e801
+      internalID: 649900041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_21
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf9300b58979844686fd531f736c498
+      internalID: -1874512944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_22
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 525
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83310f73fa07b9d46a6a220a4d107100
+      internalID: 2129842461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_23
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 525
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db7e3700c940f847aa05ad6c05bc2aa
+      internalID: -1815596545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 400
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b39997327564a4998c0d5270296f35
+      internalID: 1548469484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a793c803472264b9178da27be39030
+      internalID: -59646742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_26
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 400
+        width: 35
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6055408f9f6dbf43ba6e000c3c97acc
+      internalID: -772780066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_27
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 400
+        width: 50
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d090f9eb8feade4b96b58d06a939029
+      internalID: -2040104710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_28
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 400
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfdf4d2b2a096946b057d60de0ba6f9
+      internalID: 174085851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_29
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 400
+        width: 55
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c82bf618e19f546a7d5f3652ddab4d
+      internalID: 1095453066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_30
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 400
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150f0a3ddcab49b43959d02566885c6f
+      internalID: 1064066369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_31
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 400
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526e59da7e6c2e44180af603707fd793
+      internalID: 49402244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_32
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 400
+        width: 55
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a05baf08eb1314e9d748dc957b4034
+      internalID: 984936828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_33
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 400
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cb9de44f5ac0d488de258cb29ee022
+      internalID: -1096025050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_34
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 400
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f366dc12288b10e46b2fd9699c6b12f8
+      internalID: -1386201466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_35
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 400
+        width: 45
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d5463db03631e4bb3f61211e8e001a
+      internalID: 1671332431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 275
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090a8a8627c20f14bae244b3189cc6a0
+      internalID: 1500435164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 275
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131a810390050994397c9a896d20f5bf
+      internalID: 31064797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_38
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 275
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7570e8297c1f8774cac33c072be374ba
+      internalID: -618178078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_39
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 275
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66abf79edf0b4db4e8e97c94825b99e7
+      internalID: 1701902029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_40
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 275
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e535061687604af4bbd45809f19d5193
+      internalID: 2096500966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_41
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 275
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f044db658108c041946249b0baa96dd
+      internalID: -895145791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_42
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 250
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc48678b2fedb60478e5485a3ee61017
+      internalID: -753081071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_43
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 275
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34c32e143894f343b3be0e296344b06
+      internalID: 168738438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_44
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 275
+        width: 20
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d184f6b0b65184b937a9cf41bd1ad6
+      internalID: 904032344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_45
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 250
+        width: 40
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aec76378d407c4e9f5d1e0bd1a0654
+      internalID: 1204770099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_46
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 275
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8776f8490addfeb469813e225c39fb3c
+      internalID: 1421855667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_47
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 275
+        width: 20
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52acf93e94e1b6d47ad73d6b2d4dc95e
+      internalID: 1139580337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 150
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf36fa51401a0a4b8af1a0c63cab86b
+      internalID: 863174140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 150
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532ca60c009f2da4cb8b0d004118c5a3
+      internalID: 1588836825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_50
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 150
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b7365fb6de9354a934fae2d89a7ba7
+      internalID: 1879736223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_51
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 125
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f09421aae293b4587d220193679d5a
+      internalID: 958528704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_52
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 125
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2cdcfb37e5d0343acc737d32d94be2
+      internalID: -859266438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_53
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 150
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c660a9dd5e4afbf4d89a76bb1b4a5914
+      internalID: 901634457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_54
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 150
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276533d65eb6ba147bd7a8c742722b88
+      internalID: 1824792928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_55
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 150
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d30824274e95843b1d50b848434223
+      internalID: -1647376501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_56
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 150
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac6df45ddc9d83409bf76ea920dc6c5
+      internalID: -1244617321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_57
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 150
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7f17904f177f3418d1d4cc9a157027
+      internalID: 865487513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_58
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 150
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eceda74f0f36fcc45be352a5dc3aee20
+      internalID: 467273330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_59
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 150
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb051320df63e4d48950fc6545a259b2
+      internalID: -2024521010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 60
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9ad11937964984dbffcb97ffd299b2
+      internalID: 134552914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 25
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50db64c737743040a20fe64094c8cb5
+      internalID: 510976739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedWoodPressed-5x_62
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 25
+        width: 25
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e75e7a2121ce74ea3e9480f22237bc
+      internalID: -1111454764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RedWoodPressed-5x_0: -1031704027
+      RedWoodPressed-5x_1: -1304347216
+      RedWoodPressed-5x_10: 1447655200
+      RedWoodPressed-5x_11: -1375377219
+      RedWoodPressed-5x_12: 271407262
+      RedWoodPressed-5x_13: -1832173330
+      RedWoodPressed-5x_14: 1117017465
+      RedWoodPressed-5x_15: -1620913510
+      RedWoodPressed-5x_16: -980759559
+      RedWoodPressed-5x_17: 1417957475
+      RedWoodPressed-5x_18: -2114278026
+      RedWoodPressed-5x_19: 719232747
+      RedWoodPressed-5x_2: -1168697844
+      RedWoodPressed-5x_20: 649900041
+      RedWoodPressed-5x_21: -1874512944
+      RedWoodPressed-5x_22: 2129842461
+      RedWoodPressed-5x_23: -1815596545
+      RedWoodPressed-5x_24: 1548469484
+      RedWoodPressed-5x_25: -59646742
+      RedWoodPressed-5x_26: -772780066
+      RedWoodPressed-5x_27: -2040104710
+      RedWoodPressed-5x_28: 174085851
+      RedWoodPressed-5x_29: 1095453066
+      RedWoodPressed-5x_3: 1010656279
+      RedWoodPressed-5x_30: 1064066369
+      RedWoodPressed-5x_31: 49402244
+      RedWoodPressed-5x_32: 984936828
+      RedWoodPressed-5x_33: -1096025050
+      RedWoodPressed-5x_34: -1386201466
+      RedWoodPressed-5x_35: 1671332431
+      RedWoodPressed-5x_36: 1500435164
+      RedWoodPressed-5x_37: 31064797
+      RedWoodPressed-5x_38: -618178078
+      RedWoodPressed-5x_39: 1701902029
+      RedWoodPressed-5x_4: -95647838
+      RedWoodPressed-5x_40: 2096500966
+      RedWoodPressed-5x_41: -895145791
+      RedWoodPressed-5x_42: -753081071
+      RedWoodPressed-5x_43: 168738438
+      RedWoodPressed-5x_44: 904032344
+      RedWoodPressed-5x_45: 1204770099
+      RedWoodPressed-5x_46: 1421855667
+      RedWoodPressed-5x_47: 1139580337
+      RedWoodPressed-5x_48: 863174140
+      RedWoodPressed-5x_49: 1588836825
+      RedWoodPressed-5x_5: 669740670
+      RedWoodPressed-5x_50: 1879736223
+      RedWoodPressed-5x_51: 958528704
+      RedWoodPressed-5x_52: -859266438
+      RedWoodPressed-5x_53: 901634457
+      RedWoodPressed-5x_54: 1824792928
+      RedWoodPressed-5x_55: -1647376501
+      RedWoodPressed-5x_56: -1244617321
+      RedWoodPressed-5x_57: 865487513
+      RedWoodPressed-5x_58: 467273330
+      RedWoodPressed-5x_59: -2024521010
+      RedWoodPressed-5x_6: 1661407288
+      RedWoodPressed-5x_60: 134552914
+      RedWoodPressed-5x_61: 510976739
+      RedWoodPressed-5x_62: -1111454764
+      RedWoodPressed-5x_7: 349842496
+      RedWoodPressed-5x_8: -501797283
+      RedWoodPressed-5x_9: 664586734
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

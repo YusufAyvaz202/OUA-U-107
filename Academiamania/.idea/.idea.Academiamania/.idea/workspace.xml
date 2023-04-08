@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoPlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2O79kTCIyE7J58V4qMVvQq5t4nG" />
   <component name="ProjectViewState">
