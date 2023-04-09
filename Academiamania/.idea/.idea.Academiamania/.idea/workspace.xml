@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VideoPlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2O79kTCIyE7J58V4qMVvQq5t4nG" />
   <component name="ProjectViewState">
@@ -75,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680900897323</updated>
       <workItem from="1680900901057" duration="13000" />
+      <workItem from="1680959480991" duration="3000" />
     </task>
     <servers />
   </component>
