@@ -15,6 +15,13 @@ public class PlayerMovement : MonoBehaviour
 
     PlayerCombat playercombat;
 
+    private bool canDash = true;
+    private bool isDashing;
+    public float dashingPower = 50000f;
+    public float dashingTime = 0.1f;
+    public float dashingCooldown = 0.1f;
+    [SerializeField] private TrailRenderer tr;
+
     void Start()
     {
         sprt = GetComponent<SpriteRenderer>();
@@ -42,6 +49,13 @@ public class PlayerMovement : MonoBehaviour
         karakterSaldiri();
 
         agirSaldiri();
+
+        
+
+        if (Input.GetKeyDown(KeyCode.Mouse1) &&canDash)
+        {
+            StartCoroutine(Dashing());
+        }
 
     }
 
@@ -111,6 +125,19 @@ public class PlayerMovement : MonoBehaviour
             anim.SetTrigger("agirSaldiri");
             playercombat.DamageEnemy();
         }
+    }
+
+    private IEnumerator Dashing()
+    {
+        canDash = false;
+        isDashing = true;
+        r2d.AddForce(moveInput * dashingPower, ForceMode2D.Impulse);
+        tr.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        tr.emitting = false;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
 
 
