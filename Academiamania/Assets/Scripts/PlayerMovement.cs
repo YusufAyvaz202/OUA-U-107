@@ -20,7 +20,6 @@ public class PlayerMovement : MonoBehaviour
     public float dashingPower = 50000f;
     public float dashingTime = 0.1f;
     public float dashingCooldown = 0.1f;
-    [SerializeField] private TrailRenderer tr;
 
     void Start()
     {
@@ -132,9 +131,7 @@ public class PlayerMovement : MonoBehaviour
         canDash = false;
         isDashing = true;
         r2d.AddForce(moveInput * dashingPower, ForceMode2D.Impulse);
-        tr.emitting = true;
         yield return new WaitForSeconds(dashingTime);
-        tr.emitting = false;
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;

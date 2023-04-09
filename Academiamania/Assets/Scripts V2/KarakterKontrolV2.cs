@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class KarakterKontrolV2 : MonoBehaviour
@@ -13,6 +14,7 @@ public class KarakterKontrolV2 : MonoBehaviour
     public Rigidbody2D r2d;
     private SpriteRenderer sprt;
     private Animator anim;
+    GameObject child;
 
     KarakterSaldiriV2 karakterSaldiriV2;
     public bool characterAttack;
@@ -30,6 +32,8 @@ public class KarakterKontrolV2 : MonoBehaviour
 
         // fonksiyon kullanýmý için caching
         GameObject originalGameObject = GameObject.Find("karakter"); // düþmanlarýn karakteri bulmasý için
+
+        child = originalGameObject.transform.GetChild(0).gameObject;
 
         CharacterTimer = 0.7f;       
     }
@@ -71,12 +75,16 @@ public class KarakterKontrolV2 : MonoBehaviour
     {
         if (Input.GetAxisRaw("Horizontal") > 0)
         {
-            sprt.flipX = false;           
+            sprt.flipX = false;
+            child.BroadcastMessage("IsFacingRight", true);
+
         }
 
         else if (Input.GetAxisRaw("Horizontal") < 0)
         {
-            sprt.flipX = true;           
+            sprt.flipX = true;
+            child.BroadcastMessage("IsFacingRight", false);
+
         }
     }
 

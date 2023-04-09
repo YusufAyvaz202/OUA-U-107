@@ -48,4 +48,12 @@ public class EnemyV2 : MonoBehaviour
         Destroy(gameObject, 2f);   //2f'lik bir zamanda yok oldu
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("FireBall"))
+        {
+            TakeDamage(50);
+        }
+    }
+
 }

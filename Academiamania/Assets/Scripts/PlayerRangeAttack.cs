@@ -16,7 +16,7 @@ public class PlayerRangeAttack : MonoBehaviour
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0f;
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetMouseButtonDown(0))
         {
 
             GameObject fire = Instantiate(firePrefab, fireSpawn.position, fireSpawn.rotation);
