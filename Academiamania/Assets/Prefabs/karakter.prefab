@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 3567014012851718972}
   - component: {fileID: 3567014012851718971}
   - component: {fileID: 3567014012851718968}
+  - component: {fileID: 54863693}
   m_Layer: 0
   m_Name: karakter
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,6 +193,21 @@ MonoBehaviour:
     m_Bits: 64
   attackRange: 0.5
   damage: 25
+--- !u!114 &54863693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3567014012851718336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084c0225059c1c744a014f4a478b3848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePrefab: {fileID: 1723328625715835676, guid: ed858850ea3589e49bd7d6590e18efdd, type: 3}
+  fireSpawn: {fileID: 3567014013167566325}
+  fireSpeed: 10
 --- !u!1 &3567014013167566324
 GameObject:
   m_ObjectHideFlags: 0

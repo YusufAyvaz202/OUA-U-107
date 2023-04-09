@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class flyingEye : MonoBehaviour
 {
+
     public Animator anim;
     public int maxHealth = 100;
     int currentHealth;
+
+    EnemyAI enemyai;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         currentHealth = maxHealth;
+        enemyai = GetComponent<EnemyAI>();
     }
 
     public void TakeDamage(int damage)
@@ -36,7 +40,12 @@ public class flyingEye : MonoBehaviour
 
         GetComponent<Collider2D>().enabled = false;
 
+        enemyai.followspeed = 0;
+
         Destroy(gameObject, 2f);
 
+
+
     }
+
 }

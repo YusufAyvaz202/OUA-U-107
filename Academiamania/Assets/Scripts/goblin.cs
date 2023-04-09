@@ -14,12 +14,12 @@ public class goblin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>(); 
+        anim = GetComponent<Animator>();
         currentHealth = maxHealth;
         enemyai = GetComponent<EnemyAI>();
     }
 
-    public void TakeDamage(int damage) 
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
 
@@ -38,6 +38,7 @@ public class goblin : MonoBehaviour
 
         this.enabled = false;
 
+
         GetComponent<Collider2D>().enabled = false;
 
         enemyai.followspeed = 0;
@@ -47,5 +48,13 @@ public class goblin : MonoBehaviour
 
 
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("FireBall"))
+        {
+            TakeDamage(50);
+        }
+    }
+
 }
