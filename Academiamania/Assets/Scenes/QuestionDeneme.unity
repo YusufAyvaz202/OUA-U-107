@@ -582,9 +582,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 627140997}
-        m_TargetAssemblyTypeName: AnswersScript, Assembly-CSharp
-        m_MethodName: Answer
+      - m_Target: {fileID: 1483943699}
+        m_TargetAssemblyTypeName: QuizManager, Assembly-CSharp
+        m_MethodName: jumpScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1051,22 +1051,22 @@ MonoBehaviour:
   - Question: "Herhangi bir g\xF6rseli unity 2D oyun projesinde kullanabilmek i\xE7in
       g\xF6rselin t\xFCr\xFC (texture type) ne olarak ayarlanmal\u0131d\u0131r ?"
     Answers:
-    - ' Cursor'
+    - Sprite
     - ' Cookie'
-    - ' Sprite'
+    - ' Cursor'
     - ' Lightmap'
-    CorrectAnswers: 3
+    CorrectAnswers: 0
   - Question: "Yukar\u0131dan d\xFC\u015Fen 2D nesnemizin yer\xE7ekimi ile a\u015Fa\u011F\u0131
       d\xFC\u015Fmesini ve a\u015Fa\u011F\u0131da bulunan di\u011Fer 2D nesnelere
       \xE7arpabilmesi i\xE7in yukar\u0131dan d\xFC\u015Fen nesnemize hangi component'leri
       eklememiz gerekiyor ? (A\u015Fa\u011F\u0131da bulunan nesnelerde box collider
       2D bulunmaktad\u0131r)"
     Answers:
+    - Box Collider2D ve Rigidbody2D
     - Box Collider ve Rigidbody
-    - Box Collider 2D ve Rigidbody 2D
     - Sadece Rigidbody 2D
     - ' Sadece Box Collider 2D'
-    CorrectAnswers: 1
+    CorrectAnswers: 0
   options:
   - {fileID: 627140992}
   - {fileID: 1727117366}

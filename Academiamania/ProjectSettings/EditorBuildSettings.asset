@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalBoss.unity
     guid: 6d41dce565a3bd143983ffe36d4fb296
+  - enabled: 1
+    path: Assets/Scenes/QuestionDeneme.unity
+    guid: b000b1d8fe96dfd43a8a184338e179e1
   m_configObjects: {}

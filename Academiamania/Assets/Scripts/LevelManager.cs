@@ -9,30 +9,14 @@ public class LevelManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (whichSceneActive==0)
-        {
+        
             if (collision.gameObject.CompareTag("Player"))
-            {
-                SceneManager.LoadScene("ForestRoom");
-                Debug.Log(this.gameObject.name);
-            }
-        }
-        else if (whichSceneActive==1)
-        {
-            if (collision.gameObject.CompareTag("Player"))
-            {
-                SceneManager.LoadScene("Second");
-                Debug.Log(this.gameObject.name);
-            }
-        }
-        else if (whichSceneActive == 2)
-        {
-            if (collision.gameObject.CompareTag("Third"))
             {
                 SceneManager.LoadScene(this.gameObject.name);
                 Debug.Log(this.gameObject.name);
             }
-        }
+        
+        
 
 
 

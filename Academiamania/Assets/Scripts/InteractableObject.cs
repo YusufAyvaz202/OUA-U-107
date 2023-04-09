@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InteractableObject : CollidableObject
 {
@@ -27,6 +28,7 @@ public class InteractableObject : CollidableObject
                 // Enable the chest's Animator component and play the opening animation
                 chestAnimator.enabled = true;
                 chestAnimator.Play("ChestOpen"); // Replace "ChestOpen" with the name of your chest opening animation
+                SceneManager.LoadScene("QuestionDeneme");
             }
             // If this object is not a chest, perform some other action (e.g. show a message)
             else
@@ -36,6 +38,8 @@ public class InteractableObject : CollidableObject
 
             // Set the "z_interacted" flag to true so this object can't be interacted with again
             z_interacted = true;
+            
         }
+        
     }
 }

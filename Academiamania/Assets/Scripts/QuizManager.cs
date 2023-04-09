@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 using System;
+using UnityEngine.SceneManagement;
 public class QuizManager : MonoBehaviour
 {
    public List<QuestionsAndAnswers> QnA;
@@ -39,4 +40,9 @@ public class QuizManager : MonoBehaviour
       SetAnswers();
       
    }
+
+    public void jumpScene()
+    {
+        SceneManager.LoadScene("HeadMasterRoom");
+    }
 }

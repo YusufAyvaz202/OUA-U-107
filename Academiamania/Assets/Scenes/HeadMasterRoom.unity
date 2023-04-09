@@ -8938,7 +8938,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1826365510, guid: fbfaeddce20e965418145d27d75f74dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9003,6 +9003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ee7cfd8af49974ab14488b1fc0e6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whichSceneActive: 0
 --- !u!1 &1774192478
 GameObject:
   m_ObjectHideFlags: 0
@@ -12566,7 +12567,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1826365510, guid: fbfaeddce20e965418145d27d75f74dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12631,6 +12632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ee7cfd8af49974ab14488b1fc0e6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whichSceneActive: 0
 --- !u!1 &2113641558
 GameObject:
   m_ObjectHideFlags: 0
@@ -12690,7 +12692,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1826365510, guid: fbfaeddce20e965418145d27d75f74dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12755,6 +12757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ee7cfd8af49974ab14488b1fc0e6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whichSceneActive: 0
 --- !u!1001 &2131327247
 PrefabInstance:
   m_ObjectHideFlags: 0

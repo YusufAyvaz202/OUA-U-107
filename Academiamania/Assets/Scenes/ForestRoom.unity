@@ -142,13 +142,17 @@ PrefabInstance:
       propertyPath: slider
       value: 
       objectReference: {fileID: 1821075619}
+    - target: {fileID: 37546161379460182, guid: 999e845ea80e65547a0521aabe956909, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3567014012851718336, guid: 999e845ea80e65547a0521aabe956909, type: 3}
       propertyPath: m_Name
       value: karakter
       objectReference: {fileID: 0}
     - target: {fileID: 3567014012851718336, guid: 999e845ea80e65547a0521aabe956909, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3567014012851718975, guid: 999e845ea80e65547a0521aabe956909, type: 3}
       propertyPath: m_RootOrder
@@ -156,11 +160,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3567014012851718975, guid: 999e845ea80e65547a0521aabe956909, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10
+      value: -25.77
       objectReference: {fileID: 0}
     - target: {fileID: 3567014012851718975, guid: 999e845ea80e65547a0521aabe956909, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.6
+      value: 34.78
       objectReference: {fileID: 0}
     - target: {fileID: 3567014012851718975, guid: 999e845ea80e65547a0521aabe956909, type: 3}
       propertyPath: m_LocalPosition.z
@@ -196,9 +200,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3567014013167566324, guid: 999e845ea80e65547a0521aabe956909, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7453092648180627522, guid: 999e845ea80e65547a0521aabe956909, type: 3}
+      propertyPath: attackPoint
+      value: 
+      objectReference: {fileID: 1441222883}
+    - target: {fileID: 7453092648180627522, guid: 999e845ea80e65547a0521aabe956909, type: 3}
+      propertyPath: attackPoint2
+      value: 
+      objectReference: {fileID: 1845478924}
+    - target: {fileID: 7453092648180627522, guid: 999e845ea80e65547a0521aabe956909, type: 3}
+      propertyPath: enemyLayers.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7453092648180627522, guid: 999e845ea80e65547a0521aabe956909, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 999e845ea80e65547a0521aabe956909, type: 3}
 --- !u!1 &49634876
 GameObject:
@@ -58554,6 +58571,11 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
+--- !u!4 &1441222883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3567014013167566325, guid: 999e845ea80e65547a0521aabe956909, type: 3}
+  m_PrefabInstance: {fileID: 2362906}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1470182809
 GameObject:
   m_ObjectHideFlags: 0
@@ -60181,6 +60203,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1845478924 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 411810776134572643, guid: 999e845ea80e65547a0521aabe956909, type: 3}
+  m_PrefabInstance: {fileID: 2362906}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1963685379 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4885020016371191221, guid: 60b994e7d3128a84996ea96966d8e2bf, type: 3}
@@ -60275,7 +60302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937306494918917999, guid: 6e05f65021eddcd46a09b2d3f2f2f103, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -22
+      value: 15.37
       objectReference: {fileID: 0}
     - target: {fileID: 937306494918917999, guid: 6e05f65021eddcd46a09b2d3f2f2f103, type: 3}
       propertyPath: m_LocalPosition.z
@@ -60307,6 +60334,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 937306494918917999, guid: 6e05f65021eddcd46a09b2d3f2f2f103, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8572075054832122515, guid: 6e05f65021eddcd46a09b2d3f2f2f103, type: 3}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
