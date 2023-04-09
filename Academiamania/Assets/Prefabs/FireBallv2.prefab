@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 3336077214017097251, guid: 0bcda239565eef34cbcc9402339f36ba, type: 3}
-  lifeTime: 2
+  lifeTime: 0.6
 --- !u!50 &-5350321746185027384
 Rigidbody2D:
   serializedVersion: 4
