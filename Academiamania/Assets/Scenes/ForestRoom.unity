@@ -146,6 +146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: karakter
       objectReference: {fileID: 0}
+    - target: {fileID: 3567014012851718336, guid: 999e845ea80e65547a0521aabe956909, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3567014012851718975, guid: 999e845ea80e65547a0521aabe956909, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -188,6 +192,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3567014012851718975, guid: 999e845ea80e65547a0521aabe956909, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567014013167566324, guid: 999e845ea80e65547a0521aabe956909, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -60253,10 +60261,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2025836743, guid: 6e05f65021eddcd46a09b2d3f2f2f103, type: 3}
-      propertyPath: enemyAttackRange
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 937306494918917993, guid: 6e05f65021eddcd46a09b2d3f2f2f103, type: 3}
       propertyPath: m_Name
       value: goblin
