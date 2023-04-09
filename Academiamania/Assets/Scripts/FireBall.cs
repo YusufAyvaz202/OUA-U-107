@@ -7,6 +7,11 @@ public class FireBall : MonoBehaviour
     public GameObject explosionPrefab;
     public float lifeTime = 1f;
 
+    private void Start()
+    {
+        Invoke("DestroyFireball", 3f);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == 6)
@@ -16,5 +21,10 @@ public class FireBall : MonoBehaviour
             Destroy(gameObject);
         }
 
+    }
+
+    void DestroyFireball()
+    {
+        Destroy(gameObject);
     }
 }
