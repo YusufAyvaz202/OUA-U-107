@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class flyingEye : MonoBehaviour
+public class Skeleton : MonoBehaviour
 {
 
     public Animator anim;
