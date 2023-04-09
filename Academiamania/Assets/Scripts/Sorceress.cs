@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class flyingEye : MonoBehaviour
+public class Sorceress : MonoBehaviour
 {
 
     public Animator anim;
@@ -38,6 +38,7 @@ public class flyingEye : MonoBehaviour
 
         this.enabled = false;
 
+
         GetComponent<Collider2D>().enabled = false;
 
         enemyai.followspeed = 0;
@@ -46,6 +47,14 @@ public class flyingEye : MonoBehaviour
 
 
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("FireBall"))
+        {
+            TakeDamage(50);
+        }
     }
 
 }
