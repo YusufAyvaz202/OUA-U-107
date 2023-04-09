@@ -74,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void komboSaldiri()
+    public void komboSaldiri()
     {
         saldiri = false;
 
@@ -90,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
         kombo = 0;
     }
 
-    void karakterSaldiri()
+    public void karakterSaldiri()
     {
 
         if (Input.GetKeyDown(KeyCode.E) && !saldiri)

@@ -13,7 +13,7 @@ public class PlayerCombat : MonoBehaviour
    
 
     public float attackRange = 0.5f;
-    public int damage = 1;
+    public int damage = 25;
 
     public void DamageEnemy()
     {
