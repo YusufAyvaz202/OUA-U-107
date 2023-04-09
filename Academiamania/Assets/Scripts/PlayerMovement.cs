@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         playercombat = GetComponent<PlayerCombat>();
         GameObject originalGameObject = GameObject.Find("karakter");
         child = originalGameObject.transform.GetChild(0).gameObject;
-        
+
     }
 
     void Update()
@@ -106,7 +106,7 @@ public class PlayerMovement : MonoBehaviour
     void agirSaldiri()
 
     {
-        if (Input.GetKeyDown(KeyCode.Space)) 
+        if (Input.GetKeyDown(KeyCode.Space) && !saldiri)
         {
             anim.SetTrigger("agirSaldiri");
             playercombat.DamageEnemy();
