@@ -6,6 +6,7 @@ TagManager:
   tags:
   - karakter
   - Interactable
+  - FireBall
   layers:
   - Default
   - TransparentFX

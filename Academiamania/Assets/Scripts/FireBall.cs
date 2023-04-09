@@ -5,13 +5,16 @@ using UnityEngine;
 public class FireBall : MonoBehaviour
 {
     public GameObject explosionPrefab;
+    public float lifeTime = 1f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.layer == 6)
         {
-            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            GameObject myObject = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            Destroy(myObject, lifeTime);
             Destroy(gameObject);
         }
+
     }
 }
