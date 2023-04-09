@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class CharacterHealth : MonoBehaviour
 {
-
-    public int maxHealt = 100;
+    // saðlýk ile ilgili kodlar
+    public int maxHealth = 100;
     public int currentHealth;
-    public HealtBar healtBar;
+    public HealthBar healtBar;
 
 
+
+    // düþmanýn belirli aralýkta saldýrmasýný saðlar
     public bool enemyattack;
 
     public float enemytimer;
@@ -17,10 +19,10 @@ public class CharacterHealth : MonoBehaviour
     
     void Start()
     {
-        currentHealth = maxHealt;
+        currentHealth = maxHealth;
         enemytimer = 1.5f;
     }
-
+    // düþmanýn bize zarar verme aralýðý
     void EnemyAttackSpacing() 
     {
         if (enemyattack == false) 
@@ -41,7 +43,21 @@ public class CharacterHealth : MonoBehaviour
 
     }
 
-    public void TakeDamage() 
+
+    // Düþman hasar aldýðýnda vuramasýn bize
+    void CharacterDamage() 
+    {
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            enemyattack = false;
+        }
+    
+    }
+
+
+    //karakterimizin hasar almasý
+    public void TakeDamage(int damage) 
     
     {
         if (enemyattack)
@@ -51,12 +67,20 @@ public class CharacterHealth : MonoBehaviour
 
         }
 
-        healtBar.SetHealt(currentHealth);
+        healtBar.SetHealth(currentHealth);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+        CharacterDamage();
+        EnemyAttackSpacing();
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            TakeDamage(20);
+        }
+
     }
 }

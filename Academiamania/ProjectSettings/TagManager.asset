@@ -4,18 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - karakter
   - Interactable
   - FireBall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Interactable
+  - 
   - Water
   - UI
-  - Enemy
-  - deneme
+  - Enemies
+  - 
   - 
   - 
   - 
@@ -46,7 +45,4 @@ TagManager:
     locked: 0
   - name: Interactable
     uniqueID: 446205437
-    locked: 0
-  - name: sahne1
-    uniqueID: 630065305
     locked: 0
