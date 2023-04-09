@@ -5,7 +5,7 @@ using UnityEngine;
 public class FireBall : MonoBehaviour
 {
     public GameObject explosionPrefab;
-    public float lifeTime = 1f;
+    public float lifeTime = 0.4f;
 
     private void Start()
     {
