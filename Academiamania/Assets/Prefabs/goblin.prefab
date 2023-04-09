@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   durmaMesafesi: 1.18
-  distance: 3
+  distance: 10
   followspeed: 2
 --- !u!70 &937306494918917984
 CapsuleCollider2D:

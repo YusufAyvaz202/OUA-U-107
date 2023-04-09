@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 084c0225059c1c744a014f4a478b3848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firePrefab: {fileID: 0}
+  firePrefab: {fileID: 1723328625715835676, guid: ed858850ea3589e49bd7d6590e18efdd, type: 3}
   fireSpawn: {fileID: 3567014013167566325}
   fireSpeed: 10
 --- !u!1 &3567014013167566324
