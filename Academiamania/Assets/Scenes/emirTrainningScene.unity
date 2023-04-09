@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 362276614}
   - component: {fileID: 362276620}
   - component: {fileID: 362276621}
+  - component: {fileID: 362276622}
   m_Layer: 6
   m_Name: karakter
   m_TagString: Player
@@ -326,6 +327,19 @@ MonoBehaviour:
   enemyattack: 0
   enemytimer: 0
   anim: {fileID: 0}
+--- !u!114 &362276622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362276613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b5ffd73f145d8f45a1073f9a32cdf50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDash: 0
 --- !u!1 &378084036
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,6 +561,7 @@ GameObject:
   - component: {fileID: 1063873532}
   - component: {fileID: 1063873531}
   - component: {fileID: 1063873530}
+  - component: {fileID: 1063873537}
   m_Layer: 6
   m_Name: Goblin (1)
   m_TagString: Untagged
@@ -707,6 +722,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1063873537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063873529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab966004f1fdbf41b3ca741e1ae2148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localFaceRight: {x: 0.56, y: 0.08, z: 0}
+  localFaceLeft: {x: -0.56, y: 0.08, z: 0}
 --- !u!1 &1069710495
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,7 +1109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f012540c8b6ecaf4b9d8d8e17ce11cdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 362276617}
+  target: {fileID: 0}
   offset: {x: 0, y: 0, z: -5}
   damping: 0
 --- !u!1001 &121736897807957255
