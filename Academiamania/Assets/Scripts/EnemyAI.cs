@@ -20,6 +20,8 @@ public class EnemyAI : MonoBehaviour
 
     private SpriteRenderer sprt;
 
+    EnemyCombat enemycombat;
+
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +33,8 @@ public class EnemyAI : MonoBehaviour
         Physics2D.queriesStartInColliders = false;
 
         sprt = GetComponent<SpriteRenderer>();
+
+        enemycombat = GetComponent<EnemyCombat>();
     }
 
     // Update is called once per frame
@@ -59,6 +63,8 @@ public class EnemyAI : MonoBehaviour
             anim.SetBool("takip", true);
 
             EnemyFollow();
+
+            
 
 
         }
@@ -119,6 +125,8 @@ public class EnemyAI : MonoBehaviour
             Attack = false;
 
             anim.SetBool("Attack", Attack);
+
+            enemycombat.DamagePlayer();
 
         }
 
